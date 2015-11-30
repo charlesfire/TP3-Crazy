@@ -1,7 +1,3 @@
 #include "CarrierCruiser.h"
 
-namespace Crazy {
-
-
-{
-} /* End of namespace Crazy */
+using namespace Crazy;
