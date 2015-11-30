@@ -1,9 +1,9 @@
-#ifndef FURY_SINGLETON_H
-#define FURY_SINGLETON_H
+#ifndef CRAZY_SINGLETON_H
+#define CRAZY_SINGLETON_H
 
 #include "NonCopyable.h"
 
-namespace Fury
+namespace Crazy
 {
     template<class T>
     class Singleton : private NonCopyable
@@ -17,6 +17,6 @@ namespace Fury
         protected:
             Singleton() = default;
     };
-} /* End of namespace Fury */
+} /* End of namespace Crazy */
 
-#endif // FURY_SINGLETON_H
+#endif // CRAZY_SINGLETON_H
